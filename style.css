@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Vintage Wheel Free Trial', sans-serif;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(#DD213A, #780000);
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-image: url(/imgs/pearl-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.subTitle{
+    margin-top: 23em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 5em;
+}
+
+header img{
+    height: 3em;
+}
+
+button{
+    cursor: pointer;
+    transition: 1s;
+}
+
+header button{
+    height: 4em;
+    width: 15em;
+    border-radius: 2em;
+    background-color: #FFFFFF;
+    color: #DD213A;
+}
+
+header button p{
+    font: 'Roboto', 'Poppins', sans-serif;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 5em;
+}
+
+footer p{
+    color: #FFFFFF;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+footer button{
+    background-color: #780000;
+    height: 6em;
+    width: 15em;
+    border: 2px solid #FFFFFF;
+    border-radius: 1em;
+}
+
+button:hover{
+    width: 20em;
+}
