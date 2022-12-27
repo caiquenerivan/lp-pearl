@@ -20,9 +20,13 @@ body {
     flex-direction: column;
     justify-content: space-between;
 
-    background-image: url("/imgs/pearl-logo.png");
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#bg-img{
+    position: fixed;
+    z-index: -1;
 }
 
 
